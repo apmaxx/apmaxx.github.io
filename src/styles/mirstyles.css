@@ -2,6 +2,7 @@
 
 
 body {
+	
   background: linear-gradient(270deg,#d997ff,  #4da9ff);
 	background-size: 600% 600%;
 	-webkit-animation: Gradient 10s ease infinite;

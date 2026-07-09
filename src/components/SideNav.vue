@@ -39,17 +39,13 @@
               About Me/Projects
             </a>
           </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link" :class="{ active: activeSection === 'about' }" @click="setActive('about')">
-             
-              Contact
-            </a>
-          </li>
+          
         
           <li class="nav-item">
-            <a href="#news" class="nav-link">
+            <a href="#news" class="nav-link" title="WIP">
               
               News/Updates
+             
             </a>
           </li>
         </ul>
