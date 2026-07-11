@@ -98,7 +98,7 @@ onMounted(() => {
               <img src="./assets/github.png" width="150px" />
               </div>
               <div class="img11 skill-image" :class="{ visible: imagesVisible }">
-              <img src="./assets/nginx.png" width="150px" />
+              <img src="./assets/NGINX.png" width="150px" />
               </div>
               <div class="img12 skill-image" :class="{ visible: imagesVisible }">
               <img src="./assets/vs.png" width="150px" />
