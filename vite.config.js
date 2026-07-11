@@ -7,12 +7,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/apmaxx.github.io/',
   plugins: [
     vue(),
     vueDevTools(),
     tailwindcss(),
+  ,
   ],
+  base: '/apmaxx.github.io/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
